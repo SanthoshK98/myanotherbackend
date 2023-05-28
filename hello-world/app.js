@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get('/details', (req,res)=>{
-    return res.json({message:'It is working fine'})
+    return res.json({message:'Hello World'})
 })
 
 
